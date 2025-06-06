@@ -32,21 +32,21 @@ The goal is to understand:
 This supports the hypothesis that a **strategic mix of high interest rates and fiscal expansion** may be optimal in certain contexts — especially when inflation is externally driven and monetary policy has weak domestic traction. This presents challenges for long-term sustainability and the expansion of the private sector.
 
 ## Structure
-macro-policy-interplay/
-├── data/
-│ ├── model_dataset.csv # Final dataset used for regression
-│ └── ... # Other source/intermediate files
-├── results/
-│ ├── model_estimates.csv # Fitted values and residuals
-│ ├── estimated_coefficients.csv # Regression coefficients
-│ └── *.png # Plots of fit results
-  └── ...
-├── estimate_models.py # Main regression logic
-├── estimate_r_on_c_i_g_nx.py # Secondary regressions: C, I, NX on interest
-├── analyze_correlations.py # Code for correlation analysis
-└── ...
-└── README.md # This file
 
+macro-policy-interplay/  
+├── data/  
+│   ├── model_dataset.csv            # Final dataset used for regression  
+│   └── ...                          # Other source/intermediate files  
+├── results/  
+│   ├── model_estimates.csv          # Fitted values and residuals  
+│   ├── estimated_coefficients.csv   # Regression coefficients  
+│   └── *.png                        # Plots of fit results  
+│   └── *...                         # Other results
+├── estimate_models.py               # Main regression logic  
+├── estimate_r_on_c_i_g_nx.py        # Secondary regressions: C, I, NX on interest  
+├── analyze_correlations.py          # Code for correlation analysis  
+└── README.md                        # This file
+└──...                               # Other files
 ## 🔧 Requirements
 
 - Python 3.9+
