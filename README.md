@@ -1,4 +1,4 @@
-# Macro Policy Interplay
+# Macro-policy Interplay
 
 This project explores the interaction between monetary and fiscal policy in a small open economy — particularly under conditions where the traditional monetary transmission mechanism is impaired.
 
