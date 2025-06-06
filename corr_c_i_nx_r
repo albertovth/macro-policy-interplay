@@ -1,0 +1,10 @@
+import pandas as pd
+from scipy.stats import pearsonr
+
+# Last inn datasettet ditt
+df = pd.read_csv("data/model_dataset.csv")
+
+# Sjekk korrelasjon mellom realrentegap og c, i og nx
+for var in ["c", "i", "nx"]:
+    corr, pval = pearsonr(df["r"], df[var])
+    print(f"{var.upper()} vs r: korrelasjon = {corr:.3f}, p-verdi = {pval:.3f}")
