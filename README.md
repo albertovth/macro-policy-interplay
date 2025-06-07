@@ -58,4 +58,4 @@ macro-policy-interplay/
 
 ## License
 
-MIT License (or adapt as needed).
+MIT License
