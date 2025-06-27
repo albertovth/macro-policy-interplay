@@ -24,5 +24,5 @@ df_final.rename(columns={"exp_inflation": "kpi_2y_exp"}, inplace=True)
 
 # === Save final model dataset ===
 df_final.reset_index().to_csv(f"{DATA_DIR}/final_model_data.csv", index=False)
-print("✅ Saved final dataset to data/final_model_data.csv")
+print("Saved final dataset to data/final_model_data.csv")
 
